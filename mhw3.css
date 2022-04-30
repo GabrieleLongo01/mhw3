@@ -1,0 +1,440 @@
+body{
+    background-color:lightcyan;
+    }
+    
+    header{
+     height:650px;
+     background-image: url(https://img.freepik.com/free-photo/young-woman-boxer-training-gym_1303-18848.jpg?w=1380&t=st=1648162131~exp=1648162731~hmac=866fb140ab087e6b4ca82fb100ad30cba27d7ca4a36161dfe281e8a233dfe3db);
+     background-repeat:no-repeat;
+     background-size:cover;
+     width:auto;
+    }
+    
+    .titolo{
+      display:inline;
+      font-family:Comic Sans MS;
+      font-size:40px;
+      color:black;
+    }
+    
+    .flexbox1{
+     display:flex;
+    }
+    
+    
+    .box1,.box2,.box3,.box4{
+      text-shadow: 2px 1px 1px white;
+      font-family:hurricane,Comic Sans MS;
+      border-radius:10px;
+      height:25px;
+      padding:5px;
+      margin-right:20px;
+      position:relative;
+      left:35%;
+      font-size:15px;
+      top:15px;
+    }
+    
+    
+    
+    
+    section{
+      padding-top:100px;
+      display:flex;
+      flex-direction:column;
+    }
+    
+    .box5,.box6,.box7,.box8{
+      margin:1% 10%;
+      font-size:30px;
+    }
+    
+    .storia{
+      padding-bottom:20px;
+    }
+    
+    .tecniche{
+      padding-top:20px;
+    }
+    
+    .discipline{
+      padding-top:20px;
+      padding-bottom:20px;
+    }
+    
+    .protezioni{
+      padding-top:20px;
+      
+    }
+    
+    .storiat,.tecnichet,.disciplinet,.protezionit{
+      font-size:150%; 
+      color:black;  
+    }
+    
+    li{ 
+    padding-bottom:20px;
+    }
+    
+    .testo{
+      padding-bottom:20px;
+      text-align:center;
+    }
+    
+    strong{
+      color:black;
+      text-shadow: 2px 2px 80px black;
+    }
+    
+    .pugni{
+      margin:2% 15%;
+    display:inline-block; 
+    }
+    
+    .calcio1{
+      margin-right:9.4%
+      
+      
+    }
+    
+    .calcio2{
+     margin-left:10%;
+    }
+    
+    .calcio3{
+      margin-top:4%;
+      margin-left:30%;
+    }
+    .protezionipng{
+      margin:2% 30%;
+    }
+    
+    
+    footer{
+      background-image:radial-gradient(at top ,white,azure);
+      border-top:3px solid white;
+      height:230px;
+      width:auto;
+    }
+    
+    .footer{
+      
+      font-size:15px;
+      text-align:center;
+      width:auto;
+      
+      
+    }
+    .omino{
+      margin-left:47%
+    }
+      
+    
+    .p,.p2{
+
+        font-size:30px;
+    }
+.submit,select{
+
+  font-size:20px;
+}
+
+
+
+    form{
+        font-size:30px;
+        text-align:center;
+        
+    }
+        
+        .sport{
+           
+            flex-direction: row; 
+           
+            justify-content: space-between; 
+            
+            
+        }
+
+        .musica{
+           
+          flex-direction: row; 
+         
+          justify-content: space-between; 
+          
+          
+      }
+
+       
+       
+
+        
+    
+    .img_api{
+        
+       
+        width:350px;
+        height:350px;
+    }
+
+    .img_api2{
+        
+       margin:10px;
+      width:350px;
+      height:350px;
+  }
+    .span{
+      margin:10px;
+    }
+    
+    @media(max-width:500px){ 
+    .flexbox1{width:400px;}
+    nav{
+    width:500px;
+    
+    }
+    
+    
+    header{
+    width:500px;
+     
+      background-size:500px;
+    height:300px;
+    
+    
+    }
+    
+    .titolo{
+      display:inline;
+      font-size:20px;
+      
+    }
+    
+    .box1,.box2,.box3,.box4{
+    
+    display:none;
+    
+    
+    
+    
+    }
+    
+    .menu div{
+    
+    width:25px;
+    height:3px;
+    background-color:black;
+    margin:5px 0px 5px 450px;
+    position:relative;
+    bottom:25px;
+    }
+    
+    .storia,.tecniche,.discipline,.protezioni,li,.testo{
+    margin:2% 15%;
+    }
+    
+    section{
+    
+    width:500px;
+    }
+    
+    .storiat{
+    
+     margin:0px 207.06px;
+    
+    }
+    
+    .tecnichet{
+    
+     margin:0px 189.985px;
+    
+    }
+    
+    .disciplinet{
+    
+     margin:0px 184.35px;
+    
+    }
+    .protezionit{
+    
+     margin:0px 178.11px;
+    
+    }
+    
+    .box5,.box6,.box7,.box8{
+    
+    font-size:15px;
+    width:500px;
+    margin:0% 0%;
+    
+    
+    
+    }
+    
+    
+    .pugni,.calcio1,.calcio2,.calcio3,.protezionipng{
+    width:300px;
+    height:300px;
+    margin:2% 100px;
+    }
+    footer{
+    
+    width:500px;
+    height:200px;
+    
+    }
+    
+    .omino{
+    width:100px;
+    height:100px;
+    position:relative;
+    left:200px;
+    margin:0px;
+    
+    }
+    
+    .footer{
+    
+    font-size:10px;
+    }
+    
+    
+    
+    }
+    
+    
+    @media (min-width:501px) and (max-width:1100px){ 
+    
+    nav{
+    width:100%;
+    
+    }
+    .box1,.box2,.box3,.box4{
+    
+    position:relative;
+    left:360px;
+    font-size:10px;
+    
+    }
+    .box1 u,.box2 u,.box3 u,.box4 u{
+    
+    position:relative;
+    bottom:10px;
+    
+    
+    
+    
+    
+    
+    }
+    
+    header{
+    width:1100px;
+     
+      background-size:1100px;
+    height:400px;
+    
+    
+    }
+    
+    .titolo{
+      display:inline;
+      font-size:20px;
+      
+    }
+    
+    
+    
+    
+    
+    .storia,.tecniche,.discipline,.protezioni,li,.testo{
+    margin:2% 15%;
+    }
+    
+    section{
+    
+    width:1100px;
+    }
+    
+    .storiat{
+    
+     margin:0px 492.75px;
+    
+    }
+    
+    .tecnichet{
+    
+     margin:0px 469.97px;
+    
+    }
+    
+    .disciplinet{
+    
+     margin:0px 462.47px;
+    
+    }
+    .protezionit{
+    
+     margin:0px 454.14px;
+    
+    }
+    
+    .box5,.box6,.box7,.box8{
+    
+    font-size:20px;
+    width:1100px;
+    margin:0% 0%;
+    
+    
+    
+    }
+    
+    .pugni{
+    width:400px;
+    height:400px;
+    margin:2% 350px;
+    
+    }
+    
+    
+    
+    
+    .calcio1,.calcio2,.calcio3{
+    width:400px;
+    height:400px;
+    margin:2% 350px;
+    position:relative;
+    
+    }
+    
+    .protezionipng{
+    width:400px;
+    height:400px;
+    margin:2% 350px;
+    }
+    
+    footer{
+    
+    width:1100px;
+    height:200px;
+    
+    }
+    
+    .omino{
+    width:100px;
+    height:100px;
+    position:relative;
+    left:500px;
+    margin:0px;
+    
+    }
+    
+    .footer{
+    
+    font-size:10px;
+    }
+    
+    
+    
+    }
+    
